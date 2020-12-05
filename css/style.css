@@ -95,8 +95,10 @@ button.custom-btn a:hover{
 .book-contentt{
     text-align: left;
 }
-.text-center{
-   /*  background:#0000009c; */
+
+footer{
     padding: 20px;
     text-align: center;
+    color: #fff;
+    background-color: #555;
 }
