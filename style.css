@@ -1,0 +1,102 @@
+a:hover{
+    text-decoration: none;
+}
+
+.navbar{
+    background: #fff !important;
+    border-bottom: 1px solid #EEE;
+}
+.banar{
+    background: url(..//cafee/img/78-225556-biology-love-hate-coffee_700x400.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #a01616;
+    position: relative;
+    height:80vh ;
+    text-align: center;
+
+}
+
+.overlay{
+    position: absolute;
+    /* background-color: rgba(49, 55, 61, .5); */
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%; 
+   
+}
+
+.banar .lib-info{
+    padding-top: 140px;
+    margin: auto;
+}
+.banar .lib-info h4{
+    font-size: 65px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    font-family: cursive;
+}
+.banar .lib-info p{
+    color: #bbb;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 30px;
+    font-family: cursive;
+}
+.books{
+    margin: 50px 0;
+}
+.card{
+    margin-bottom: 30px;
+}
+.img-cover{
+    /* height: 250px; */
+    overflow: hidden;
+}
+.img-cover .card-img-top{
+    /* width: 100%; */
+    height: auto;
+    display: block;
+}
+.card-title a{
+color: #555;
+transition: 0.3s;
+}
+.card-title a:hover{
+    text-decoration: none;
+    color: #777;
+}
+.card-text{
+    color: #777;
+    line-height: 30px;
+
+}
+button.custom-btn{
+    padding: 10px;
+    border: 1px solid #555;
+    outline: none;
+    transition: 0.3s;
+}
+button.custom-btn:hover{
+    background: #555;
+}
+button.custom-btn a{
+    color: #555;
+    font-size: 18px;
+    display: block;
+}
+button.custom-btn a:hover{
+    text-decoration: none;
+    color: #fff;
+
+}
+.book-contentt{
+    text-align: left;
+}
+.text-center{
+   /*  background:#0000009c; */
+    padding: 20px;
+    text-align: center;
+}
