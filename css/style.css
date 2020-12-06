@@ -12,7 +12,7 @@ a:hover{
     background-size: cover;
     color: #a01616;
     position: relative;
-    height:80vh ;
+    height:70vh ;
     text-align: center;
 
 }
@@ -61,18 +61,28 @@ a:hover{
     display: block;
 }
 .card-title a{
-color: #555;
 transition: 0.3s;
 }
 .card-title a:hover{
-    text-decoration: none;
-    color: #777;
+
 }
 .card-text{
     color: #777;
     line-height: 30px;
 
 }
+
+.btn-primary{
+    color: #fff;
+    background-color: #49688a;
+    border-color: #49688a;
+}
+
+.btn-primary:hover{
+    background-color: #0551a5;
+    border-color: #49688a;
+}
+
 button.custom-btn{
     padding: 10px;
     border: 1px solid #555;
@@ -100,13 +110,8 @@ button.custom-btn a:hover{
     text-align: right;
 }
 
-/* footer{
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    background-color: #282C2F;
-} */
 
+/* start of footer */
 
 footer{
 	
