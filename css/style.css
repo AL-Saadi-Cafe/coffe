@@ -12,14 +12,12 @@ a:hover{
     background-size: cover;
     color: #a01616;
     position: relative;
-    height:70vh ;
-    text-align: center;
-
+    height:80vh ;
+	text-align: center;
 }
 
 .overlay{
     position: absolute;
-    /* background-color: rgba(49, 55, 61, .5); */
     background-color: rgba(0, 0, 0, .5);
     width: 100%;
     height: 100%; 
@@ -74,12 +72,12 @@ transition: 0.3s;
 
 .btn-primary{
     color: #fff;
-    background-color: #49688a;
-    border-color: #49688a;
+    background-color: #64a19d;
+    border-color: #64a19d;
 }
 
 .btn-primary:hover{
-    background-color: #0551a5;
+    background-color: #49688a;
     border-color: #49688a;
 }
 
