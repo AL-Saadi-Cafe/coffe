@@ -181,7 +181,13 @@ footer{
 	text-align: center;
 	line-height: 42px;
 	margin: 10px 15px;
-	vertical-align: middle;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+}
+
+.footer-distributed .footer-center i:hover{
+    color:  #33383b;
+	background-color: #ffffff;
 }
  
 .footer-distributed .footer-center i.fa-envelope{
@@ -246,9 +252,26 @@ footer{
 	line-height: 35px;
  
 	margin-right: 3px;
-	margin-bottom: 5px;
+    margin-bottom: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.footer-distributed .footer-icons a:hover:first-child{
+    background-color:  #3b5998;
+    color: #fff;
+}
+
+.footer-distributed .footer-icons a:hover:nth-child(2){
+    background-color:  #1da1f2;
 }
  
+.footer-distributed .footer-icons a:hover:nth-child(3){
+    background-color:  #075e54;
+}
+
+.footer-distributed .footer-icons a:hover:nth-child(4){
+    background-color:  #db0707;
+}
  
 @media (max-width: 880px) {
  
@@ -275,3 +298,4 @@ footer{
 	}
  
 }
+
